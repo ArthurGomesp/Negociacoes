@@ -1,6 +1,6 @@
 export class NegociacoesView {
-  template(): String {
-    return `
+    template() {
+        return `
             <table class = "table table-hover table-bordered">
                 <thead>
                 <tr>
@@ -16,5 +16,5 @@ export class NegociacoesView {
             </table>
             
             `;
-  }
+    }
 }
